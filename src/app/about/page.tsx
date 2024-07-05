@@ -15,15 +15,10 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    一名 C++ 开发者
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Hi! 我的名字是 [Your Name]，我是一名专注于 C++ 开发的程序员。热爱编程和技术研究，致力于将技术创新应用于实际开发中。
                   </p>
                 </div>
               </div>
@@ -32,7 +27,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.lpdata.work</span>
+                        Website : <a href="https://www.lpdata.work" target="_blank" rel="noopener noreferrer">www.lpdata.work</a>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -42,23 +37,22 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>mindbnim@foxmail.com</span>
+                        Email : <a href="mailto:mindbnim@foxmail.com">mindbnim@foxmail.com</a>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email2 : <span>mindbnim16@gmail.com</span>
-                      </p>
-                    </div>
-                    
-                    <div className="info-item padd-15">
-                      <p>
-                        Blog : <span>https://blog.csdn.net/2301_77838258?spm=1000.2115.3001.5343</span>
+                        Email2 : <a href="mailto:mindbnim16@gmail.com">mindbnim16@gmail.com</a>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        GitHub : <span>https://github.com/MindbniM</span>
+                        Blog : <a href="https://blog.csdn.net/2301_77838258?spm=1000.2115.3001.5343" target="_blank" rel="noopener noreferrer">CSDN Blog</a>
+                      </p>
+                    </div>
+                    <div className="info-item padd-15">
+                      <p>
+                        GitHub : <a href="https://github.com/MindbniM" target="_blank" rel="noopener noreferrer">github.com/MindbniM</a>
                       </p>
                     </div>
                   </div>
@@ -66,17 +60,10 @@ const About: NextPage = () => {
                     <div className="buttons padd-15">
                       <a
                         href="/assets/docs/resume.pdf"
-                        target="_target"
+                        target="_blank"
                         className="btn"
                       >
                         Download CV
-                      </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
                       </a>
                     </div>
                   </div>
