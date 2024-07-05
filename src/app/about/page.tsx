@@ -13,38 +13,21 @@ const About: NextPage = () => {
           <div className="row">
             <div className="about-content padd-15">
               <div className="row">
-                <div className="skills padd-15">
-                  <div className="row">
-                    <div className="skill-item padd-15">
-                      <h5>Html5</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Css3</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="about-text padd-15">
+                  <h2>
+                    I am Your name a <span>Your Expertise</span>
+                  </h2>
+                  <p>
+                    Hi! My name is Your Name. I am a your expertise, and I am
+                    very passionate and dedicated to my work. With 1 years
+                    experience as a your expertise, I have acquired the skills and
+                    knowledge necessary to make your project a success. I enjoy
+                    every step of the design process, from discussion and
+                    collaboration.
+                  </p>
                 </div>
+              </div>
+              <div className="row">
                 <div className="personal-info padd-15">
                   <div className="row">
                     <div className="info-item padd-15">
@@ -54,17 +37,28 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
+                        City : <span>Xi&apos;an</span>
+                      </p>
+                    </div>
+                    <div className="info-item padd-15">
+                      <p>
                         Email : <span>mindbnim@foxmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+86 15129152789</span>
+                        Email2 : <span>mindbnim16@gmail.com</span>
+                      </p>
+                    </div>
+                    
+                    <div className="info-item padd-15">
+                      <p>
+                        Blog : <span>https://blog.csdn.net/2301_77838258?spm=1000.2115.3001.5343</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Xi&apos;an</span>
+                        GitHub : <span>https://github.com/MindbniM</span>
                       </p>
                     </div>
                   </div>
@@ -87,7 +81,9 @@ const About: NextPage = () => {
                     </div>
                   </div>
                 </div>
+                {/* 删除了技能部分 */}
               </div>
+              {/* 删除了教育背景和工作经验部分 */}
             </div>
           </div>
         </div>
