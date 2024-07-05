@@ -17,7 +17,7 @@ const About: NextPage = () => {
                   <h2>
                     I am Your name a <span>Your Expertise</span>
                   </h2>
-                  <p>
+                  <!--<p>
                     Hi! My name is Your Name. I am a your expertise, and I am
                     very passionate and dedicated to my work. With 1 years
                     experience as a your expertise, I have acquired the skills and
@@ -25,6 +25,7 @@ const About: NextPage = () => {
                     every step of the design process, from discussion and
                     collaboration.
                   </p>
+                  -->
                 </div>
               </div>
               <div className="row">
@@ -32,34 +33,37 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>www.lpdata.work</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>mindbnim@foxmail.com</span>
                       </p>
                     </div>
-                    <div className="info-item padd-15">
+                    <!--<div className="info-item padd-15">
                       <p>
                         Degree : <span>SSC</span>
                       </p>
+                      -->
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+86 15129152789</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Xi'an</span>
                       </p>
                     </div>
+                    <!--
                     <div className="info-item padd-15">
                       <p>
                         Freelance : <span>Available</span>
                       </p>
                     </div>
+                    -->
                   </div>
                   <div className="row">
                     <div className="buttons padd-15">
