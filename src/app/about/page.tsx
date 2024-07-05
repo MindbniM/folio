@@ -54,7 +54,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Xi'an</span>
+                        City : <span>Xi"'"an</span>
                       </p>
                     </div>
                     
